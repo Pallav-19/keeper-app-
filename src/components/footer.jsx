@@ -4,7 +4,7 @@ function Footer() {
   const thisYear = new Date();
   return (
     <footer>
-      <p>Copyright {thisYear.getFullYear()} </p>
+      <p>Copyright ⓒ {thisYear.getFullYear()} </p>
     </footer>
   );
 }
